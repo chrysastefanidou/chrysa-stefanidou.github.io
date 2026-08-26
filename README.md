@@ -1,5 +1,2 @@
-# Χρύσα Στεφανίδου — Portfolio V26
-
-- Contact eyebrow removed
-- CTA updated
-- Open Graph/social sharing preview metadata and image added
+# Χρύσα Στεφανίδου — Portfolio V27
+CTA phrase fixed directly in HTML.
