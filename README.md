@@ -1,3 +1,3 @@
 # Χρύσα Στεφανίδου — Portfolio
 
-GitHub Pages portfolio. Τα placeholders θα αντικατασταθούν με τα πραγματικά videos, YouTube links, φωτογραφίες και social links.
+V4 based on the supplied portfolio PDF.
