@@ -1,2 +1,2 @@
-# Χρύσα Στεφανίδου — Portfolio V21
-Compact external link cards; Mike Dokas link changed to TikTok.
+# Χρύσα Στεφανίδου — Portfolio V22
+Hero expertise panel added, including Ads & Paid Social.
