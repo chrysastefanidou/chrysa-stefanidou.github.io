@@ -12,3 +12,8 @@
  .project-subgroup .gallery,.fashion-work .gallery,.other-space .gallery{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none}
  .project-subgroup .gallery img{height:150px}
 }
+
+/* V14 alignment refinements */
+.centered-row .gallery{margin-left:auto!important;margin-right:auto!important}
+.fashion-work.centered-row .gallery{max-width:620px!important}
+.other-space.centered-row .gallery{max-width:420px!important}
