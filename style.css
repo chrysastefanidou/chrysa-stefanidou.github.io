@@ -7,3 +7,6 @@
   .gallery,.designs{grid-template-columns:repeat(5,1fr)}
   .fashion{grid-template-columns:repeat(5,1fr)}
 }
+
+/* V8: navigation must not follow scrolling */
+header{position:static!important;top:auto!important;}
