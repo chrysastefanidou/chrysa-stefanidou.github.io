@@ -22,3 +22,11 @@
   .product-row,.fashion-row,.best-house-row,.commercial-content-row{grid-template-columns:repeat(2,1fr);max-width:none}
   .fashion-row img:nth-child(n),.best-house-row img:nth-child(n),.commercial-content-row img:nth-child(n){grid-column:auto}
 }
+
+/* V18: portfolio section numbers removed */
+.ct{grid-template-columns:1fr auto}
+.ct small{grid-column:auto}
+@media(max-width:700px){
+  .ct{grid-template-columns:1fr}
+  .ct small{grid-column:1}
+}
