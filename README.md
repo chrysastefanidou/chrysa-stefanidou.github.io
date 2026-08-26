@@ -1,3 +1,2 @@
-# Χρύσα Στεφανίδου — Portfolio V20
-
-Talking Heads, Backstage and Branded/Educational items updated with external Instagram links. Creative Video Concepts remain local videos.
+# Χρύσα Στεφανίδου — Portfolio V21
+Compact external link cards; Mike Dokas link changed to TikTok.
