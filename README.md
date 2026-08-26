@@ -1,2 +1,2 @@
-# Χρύσα Στεφανίδου — Portfolio V27
-CTA phrase fixed directly in HTML.
+# Χρύσα Στεφανίδου — Portfolio V28
+Recovered from V26; only the contact CTA phrase changed safely.
