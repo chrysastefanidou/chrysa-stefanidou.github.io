@@ -325,3 +325,15 @@
     gap:12px!important;
   }
 }
+
+/* V24 — all expertise cards use exactly the same styling */
+.hero-expertise .expertise-item,
+.hero-expertise .expertise-item:last-child{
+  background:rgba(255,255,255,.42)!important;
+  border-color:rgba(104,83,113,.18)!important;
+  color:inherit!important;
+}
+.hero-expertise .expertise-item:last-child b,
+.hero-expertise .expertise-item:last-child span{
+  color:inherit!important;
+}
