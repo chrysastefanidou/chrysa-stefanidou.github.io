@@ -17,3 +17,29 @@
 .centered-row .gallery{margin-left:auto!important;margin-right:auto!important}
 .fashion-work.centered-row .gallery{max-width:620px!important}
 .other-space.centered-row .gallery{max-width:420px!important}
+
+/* V16 exact requested placement */
+/* Fashion: three lower photos move one grid position to the right. */
+@media(min-width:701px){
+  .fashion-work.shifted-fashion .gallery{
+    display:grid!important;
+    grid-template-columns:repeat(5,1fr)!important;
+    max-width:900px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  .fashion-work.shifted-fashion .gallery > *:nth-child(1){grid-column:2}
+  .fashion-work.shifted-fashion .gallery > *:nth-child(2){grid-column:3}
+  .fashion-work.shifted-fashion .gallery > *:nth-child(3){grid-column:4}
+
+  /* Commercial: the two lower images sit together in the center. */
+  .other-space.centered-commercial .gallery{
+    display:grid!important;
+    grid-template-columns:repeat(4,1fr)!important;
+    max-width:720px!important;
+    margin-left:auto!important;
+    margin-right:auto!important;
+  }
+  .other-space.centered-commercial .gallery > *:nth-child(1){grid-column:2}
+  .other-space.centered-commercial .gallery > *:nth-child(2){grid-column:3}
+}
