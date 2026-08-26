@@ -23,10 +23,10 @@
   .fashion-row img:nth-child(n),.best-house-row img:nth-child(n),.commercial-content-row img:nth-child(n){grid-column:auto}
 }
 
-/* V18: portfolio section numbers removed */
-.ct{grid-template-columns:1fr auto}
-.ct small{grid-column:auto}
+/* V19 — category numbers removed from HTML */
+.ct{grid-template-columns:1fr auto!important}
+.ct small{grid-column:auto!important}
 @media(max-width:700px){
-  .ct{grid-template-columns:1fr}
-  .ct small{grid-column:1}
+  .ct{grid-template-columns:1fr!important}
+  .ct small{grid-column:1!important}
 }
