@@ -575,3 +575,29 @@ header nav a{
 .footer-socials a:hover svg{
   fill:#fff;
 }
+
+
+/* V33 — LinkedIn centering + readable podcast label */
+.footer-socials .linkedin-icon{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+}
+.footer-socials .linkedin-icon svg{
+  width:24px!important;
+  height:24px!important;
+  display:block!important;
+  margin:0!important;
+  transform:translate(1px,0)!important;
+}
+
+/* PODCAST EPISODES EDITED — clearer sans-serif treatment */
+.podcast .stat,
+.podcast .stat *,
+.podcast small,
+.podcast .eyebrow{
+  font-family:Arial, Helvetica, sans-serif!important;
+  font-style:normal!important;
+  letter-spacing:.8px!important;
+  line-height:1.35!important;
+}
