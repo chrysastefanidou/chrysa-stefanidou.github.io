@@ -564,3 +564,14 @@ header nav a{
     flex-wrap:wrap;
   }
 }
+
+/* V32 — LinkedIn icon embedded locally so it always renders */
+.footer-socials a svg{
+  width:25px;
+  height:25px;
+  display:block;
+  fill:#19161d;
+}
+.footer-socials a:hover svg{
+  fill:#fff;
+}
