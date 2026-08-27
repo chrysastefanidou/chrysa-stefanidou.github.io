@@ -1,4 +1,3 @@
-# Χρύσα Στεφανίδου — Portfolio V33
-- LinkedIn icon centered
-- Podcast Episodes Edited typography made more readable
-- New simplified social preview with no overlapping text
+# Χρύσα Στεφανίδου — Portfolio V35
+- Podcast Episodes Edited typography aligned with YouTube Long-form Content
+- New social preview: name, role and the five expertise blocks matching the site

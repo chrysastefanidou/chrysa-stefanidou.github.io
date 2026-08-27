@@ -601,3 +601,55 @@ header nav a{
   letter-spacing:.8px!important;
   line-height:1.35!important;
 }
+
+/* V34 — LinkedIn optical centering + podcast heading readability */
+
+/* Perfectly centered LinkedIn mark */
+.footer-socials .linkedin-icon{
+  display:grid!important;
+  place-items:center!important;
+  padding:0!important;
+}
+.footer-socials .linkedin-mark{
+  display:block!important;
+  font-family:Arial, Helvetica, sans-serif!important;
+  font-size:28px!important;
+  line-height:1!important;
+  font-weight:700!important;
+  letter-spacing:-1.5px!important;
+  color:#19161d!important;
+  transform:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+.footer-socials .linkedin-icon:hover .linkedin-mark{
+  color:#fff!important;
+}
+
+/* Make PODCAST EPISODES EDITED clean and airy */
+.stat h3{
+  font-family:Arial, Helvetica, sans-serif!important;
+  font-size:24px!important;
+  font-weight:700!important;
+  letter-spacing:.2px!important;
+  line-height:1.15!important;
+  text-transform:none!important;
+  word-spacing:2px!important;
+}
+.stat p{
+  font-family:Arial, Helvetica, sans-serif!important;
+  font-size:12px!important;
+  letter-spacing:.7px!important;
+  line-height:1.55!important;
+}
+
+/* V35 — PODCAST EPISODES EDITED matches YOUTUBE LONG-FORM CONTENT */
+.stat h3{
+  font-family:inherit!important;
+  font-size:clamp(18px,2vw,27px)!important;
+  font-weight:inherit!important;
+  letter-spacing:normal!important;
+  line-height:1.12!important;
+  text-transform:none!important;
+  word-spacing:normal!important;
+}
