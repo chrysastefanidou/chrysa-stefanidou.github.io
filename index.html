@@ -1,4 +1,4 @@
-<!doctype html><html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Χρύσα Στεφανίδου — Video Editor & Content Creator"><title>Χρύσα Στεφανίδου — Portfolio</title><link rel="stylesheet" href="style.css?v=30">
+<!doctype html><html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Χρύσα Στεφανίδου — Video Editor & Content Creator"><title>Χρύσα Στεφανίδου — Portfolio</title><link rel="stylesheet" href="style.css?v=31">
 <meta name="description" content="Portfolio της Χρύσας Στεφανίδου — Video Editor & Content Creator. Video editing, content creation, video production και photography.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Χρύσα Στεφανίδου — Video Editor & Content Creator">
@@ -93,41 +93,57 @@
       <p class="contact-intro">Στείλε μου λίγες πληροφορίες για το project σου ή επικοινώνησε απευθείας μέσω email.</p>
       <a class="email" href="mailto:chrysastefanidou97@gmail.com">chrysastefanidou97@gmail.com ↗</a>
     </div>
-    <form class="contact-form" id="contact-form">
-      <div class="form-row">
-        <label>Όνομα<input type="text" name="name" required placeholder="Το όνομά σου"></label>
-        <label>Email<input type="email" name="email" required placeholder="name@email.com"></label>
-      </div>
-      <label>Θέμα<input type="text" name="subject" placeholder="Τι θέλεις να συζητήσουμε;"></label>
-      <label>Μήνυμα<textarea name="message" rows="6" required placeholder="Πες μου λίγα λόγια για το project..."></textarea></label>
-      <button type="submit">Αποστολή μηνύματος ↗</button>
-    </form>
+    
+<form class="contact-form" action="https://formsubmit.co/chrysastefanidou97@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="Νέο μήνυμα από το portfolio">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://chrysastefanidou.github.io/chrysa-stefanidou.github.io/?sent=1#contact">
+  <input type="text" name="_honey" style="display:none">
+  <div class="form-row">
+    <label>Όνομα<input type="text" name="name" required placeholder="Το όνομά σου"></label>
+    <label>Email<input type="email" name="email" required placeholder="name@email.com"></label>
+  </div>
+  <label>Θέμα<input type="text" name="subject" placeholder="Τι θέλεις να συζητήσουμε;"></label>
+  <label>Μήνυμα<textarea name="message" rows="6" required placeholder="Πες μου λίγα λόγια για το project..."></textarea></label>
+  <button type="submit">Αποστολή μηνύματος ↗</button>
+</form>
+
   </div>
 
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <strong>Χρύσα Στεφανίδου.</strong>
-      <span>Video Editor · Content Creator</span>
-    </div>
+  
+<footer class="site-footer">
+  <div class="footer-brand">
+    <strong>Χρύσα Στεφανίδου.</strong>
+    <span>Video Editor · Content Creator</span>
+  </div>
+  <div class="footer-right">
     <div class="footer-socials" aria-label="Social media">
-      <a href="https://www.facebook.com/chryrley.stefanidou" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><span>f</span></a>
-      <a href="https://www.instagram.com/chrysa_stefanidou/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><span>◎</span></a>
-      <a href="https://www.linkedin.com/in/chrysa-stefanidou-/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><span>in</span></a>
+      <a href="https://www.facebook.com/chryrley.stefanidou" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+        <img src="https://cdn.simpleicons.org/facebook/19161D" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/chrysa_stefanidou/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+        <img src="https://cdn.simpleicons.org/instagram/19161D" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/in/chrysa-stefanidou-/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <img src="https://cdn.simpleicons.org/linkedin/19161D" alt="LinkedIn">
+      </a>
     </div>
-  </footer>
-</section>
-</main>
+    <div class="copyright">© 2026 Χρύσα Στεφανίδου</div>
+  </div>
+</footer>
+
+
+<div class="form-success" id="form-success" hidden>
+  Το μήνυμα στάλθηκε. Ευχαριστώ!
+</div>
 <script>
-document.getElementById('contact-form').addEventListener('submit', function (event) {
-  event.preventDefault();
-  const data = new FormData(this);
-  const name = data.get('name') || '';
-  const email = data.get('email') || '';
-  const subject = data.get('subject') || 'Νέο project από το portfolio';
-  const message = data.get('message') || '';
-  const body = `Όνομα: ${name}\nEmail: ${email}\n\n${message}`;
-  window.location.href = `mailto:chrysastefanidou97@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-});
+if (new URLSearchParams(window.location.search).get('sent') === '1') {
+  const success = document.getElementById('form-success');
+  if (success) success.hidden = false;
+}
 </script>
 
+</section>
+</main>
 </body></html>

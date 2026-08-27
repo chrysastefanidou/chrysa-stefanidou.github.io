@@ -1,8 +1,6 @@
-# Χρύσα Στεφανίδου — Portfolio V30
+# Χρύσα Στεφανίδου — Portfolio V31
 
-- Existing site design preserved
-- Larger navigation
-- ADS card typography unified
-- Full social section removed; social icons moved to footer
-- Contact form + visible email added (mailto-based, no paid backend)
-- New light social preview matching the site's existing colors/style
+- Contact form now submits through FormSubmit (no mail client required)
+- Proper Facebook / Instagram / LinkedIn logo icons in footer
+- Larger footer social icons
+- © 2026 Χρύσα Στεφανίδου added

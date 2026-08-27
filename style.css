@@ -517,3 +517,50 @@ header nav a{
     flex-direction:column;
   }
 }
+
+
+/* V31 — working hosted form + proper social logos + copyright */
+.contact-form > input[type="hidden"]{display:none}
+.form-success{
+  margin-top:18px;
+  padding:12px 15px;
+  border:1px solid rgba(25,22,29,.25);
+  border-radius:8px;
+  background:rgba(255,255,255,.38);
+  font-weight:700;
+}
+
+.footer-right{
+  display:flex;
+  align-items:center;
+  gap:22px;
+}
+.footer-socials{
+  gap:12px!important;
+}
+.footer-socials a{
+  width:50px!important;
+  height:50px!important;
+}
+.footer-socials a img{
+  width:24px;
+  height:24px;
+  display:block;
+}
+.footer-socials a:hover img{
+  filter:invert(1);
+}
+.copyright{
+  font-size:12px;
+  color:#245d5b;
+  white-space:nowrap;
+}
+@media(max-width:700px){
+  .footer-right{
+    width:100%;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+}
